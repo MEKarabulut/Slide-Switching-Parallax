@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    paddng:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+  }
+  body{
+    background:#fff;
+  }
+  .main{
+    position:relative;
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+  }
+  .main .slider{
+    position:relative;
+    width:500%;
+    height:100%;
+    transition:0.3s linear;
+    overflow:hidden;
+    display:flex;
+  }
+  .main .slider .slide{
+    position:relative;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    overflow:hidden;
+  }
+  .main .slider .slide:nth-child(1){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/istanbul.jpg');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(2){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/ankara.jpg');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(3){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/nevsehir.jpg');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(4){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/antalya.jpg');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(5){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/bursa.jpg');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  
